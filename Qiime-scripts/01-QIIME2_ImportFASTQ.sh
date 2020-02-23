@@ -16,10 +16,10 @@
 INPUT=/rhome/adesa002/shared/memb/18S/data-clean/rRNA-variants-review/
 OUTPUT=/rhome/adesa002/shared/memb/18S/analysis-results/rRNA-variants-review/01-rRNAvariants_FASTQ_Artifact.qza
 
-#Activate QIIME2v2018.8
+#Activate QIIME2v2019.10
 export LC_ALL=en_US.utf-8
 export LANG=en_US.utf-8
-source activate qiime2-2019.4
+source activate qiime2-2019.10
 
 #Script
 qiime tools import \

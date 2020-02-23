@@ -22,7 +22,7 @@ OUTPUT=/rhome/adesa002/shared/memb/18S/analysis-results/rRNA-variants-review/05A
 #Activate QIIME2
 export LC_ALL=en_US.utf-8
 export LANG=en_US.utf-8
-source activate qiime2-2019.4
+source activate qiime2-2019.10
 
 qiime feature-classifier classify-consensus-blast \
 --i-query $INPUT \

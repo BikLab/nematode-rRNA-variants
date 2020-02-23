@@ -23,7 +23,7 @@ STATS=/rhome/adesa002/shared/memb/18S/analysis-results/rRNA-variants-review/03-r
 module unload R 
 export LC_ALL=en_US.utf-8
 export LANG=en_US.utf-8
-source activate qiime2-2019.4
+source activate qiime2-2019.10
 
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs $INPUT \

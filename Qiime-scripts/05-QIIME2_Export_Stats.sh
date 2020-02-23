@@ -19,7 +19,7 @@ OUTPUT=/rhome/adesa002/shared/memb/18S/analysis-results/rRNA-variants-review/exp
 #Activate QIIME2 conda env
 export LC_ALL=en_US.utf-8
 export LANG=en_US.utf-8
-source activate qiime2-2019.4
+source activate qiime2-2019.10
 
 qiime tools export \
   --input-path $INPUT \
